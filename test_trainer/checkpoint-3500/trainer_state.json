@@ -1,0 +1,88 @@
+{
+  "best_metric": null,
+  "best_model_checkpoint": null,
+  "epoch": 2.8,
+  "eval_steps": 500,
+  "global_step": 3500,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.4,
+      "grad_norm": 5.875593185424805,
+      "learning_rate": 4.3333333333333334e-05,
+      "loss": 0.4122,
+      "step": 500
+    },
+    {
+      "epoch": 0.8,
+      "grad_norm": 14.32160472869873,
+      "learning_rate": 3.6666666666666666e-05,
+      "loss": 0.3517,
+      "step": 1000
+    },
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.8919191919191919,
+      "eval_loss": 0.2903572618961334,
+      "eval_runtime": 172.2223,
+      "eval_samples_per_second": 17.245,
+      "eval_steps_per_second": 2.16,
+      "step": 1250
+    },
+    {
+      "epoch": 1.2,
+      "grad_norm": 40.48081970214844,
+      "learning_rate": 3e-05,
+      "loss": 0.291,
+      "step": 1500
+    },
+    {
+      "epoch": 1.6,
+      "grad_norm": 3.5392708778381348,
+      "learning_rate": 2.3333333333333336e-05,
+      "loss": 0.2384,
+      "step": 2000
+    },
+    {
+      "epoch": 2.0,
+      "grad_norm": 9.630186080932617,
+      "learning_rate": 1.6666666666666667e-05,
+      "loss": 0.2436,
+      "step": 2500
+    },
+    {
+      "epoch": 2.0,
+      "eval_accuracy": 0.8976430976430977,
+      "eval_loss": 0.3728308081626892,
+      "eval_runtime": 173.5707,
+      "eval_samples_per_second": 17.111,
+      "eval_steps_per_second": 2.143,
+      "step": 2500
+    },
+    {
+      "epoch": 2.4,
+      "grad_norm": 14.87781810760498,
+      "learning_rate": 1e-05,
+      "loss": 0.1751,
+      "step": 3000
+    },
+    {
+      "epoch": 2.8,
+      "grad_norm": 0.08916164934635162,
+      "learning_rate": 3.3333333333333333e-06,
+      "loss": 0.172,
+      "step": 3500
+    }
+  ],
+  "logging_steps": 500,
+  "max_steps": 3750,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 3,
+  "save_steps": 500,
+  "total_flos": 69734292547104.0,
+  "train_batch_size": 8,
+  "trial_name": null,
+  "trial_params": null
+}
